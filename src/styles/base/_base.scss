@@ -1,0 +1,55 @@
+@import "color-variables";
+body {
+  font-family: "poppins", sans-serif;
+}
+* {
+  box-sizing: border-box;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+.h100Vh {
+  height: 100vh;
+}
+
+.bg-brown {
+  background: $sunflower-50;
+}
+
+.auth__header {
+  font-family: "Pricess Sofia", cursive;
+  font-size: 30px;
+  max-width: 300px;
+}
+
+.auth--header__padding-top {
+  padding-top: 125px;
+}
+
+.h-line-between-words {
+  overflow: hidden;
+  text-align: center;
+}
+
+.h-line-between-words:before,
+.h-line-between-words:after {
+  background-color: #dbe3ee;
+  content: "";
+  display: inline-block;
+  height: 1px;
+  position: relative;
+  vertical-align: middle;
+  width: 50%;
+}
+
+.h-line-between-words:before {
+  right: 0.5em;
+  margin-left: -50%;
+}
+
+.h-line-between-words:after {
+  left: 0.5rem;
+  margin-right: -50%;
+}
